@@ -357,7 +357,9 @@ The Basics section
     line-height: 26px;
     letter-spacing: 0.2px;
 }
-
+#about .h3left {
+	float: left;
+}
 /*---------------------------------------
    Gallery section
 -----------------------------------------*/
