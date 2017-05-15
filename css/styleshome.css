@@ -273,25 +273,23 @@ a:hover, a:active, a:focus {
 
 .main-home {
   background: url('http://i.imgur.com/cRRyCpx.jpg') no-repeat;
-	/*background: url('../images/home-bg.jpg') no-repeat;*/
   height: 100vh;
-	/*<a href="http://imgur.com/jY9ho89"><img src="http://i.imgur.com/jY9ho89.jpg*/
 }
 
 .main-about {
-  background: url('../images/about-bg.jpg') no-repeat;
+  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
 }
 
 .main-single-post {
-  background: url('../images/single-post-bg.jpg') no-repeat;
+  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
 }
 
 .main-gallery {
-  background: url('../images/gallery-bg.jpg') no-repeat;
+  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
 }
 
 .main-contact {
-  background: url('../images/contact-bg.jpg') no-repeat;
+  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
 }
 
 #particles-js {
@@ -330,16 +328,18 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   About section
+The Basics section
 -----------------------------------------*/
 
 #about .col-md-6 {
   padding-top: 22px;
   padding-bottom: 32px;
+	float: right;
 }
 
 #about .col-md-6 img {
-  padding: 22px 0px 22px 22px;
+  padding: 22px 0px 22px 2px;
+	float: left;
 }
 
 #about .col-md-4 {
@@ -350,7 +350,13 @@ a:hover, a:active, a:focus {
   padding-top: 12px;
 }
 
-
+#about ul {
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
 
 /*---------------------------------------
    Gallery section
