@@ -95,7 +95,7 @@ a:hover, a:active, a:focus {
   padding-bottom: 80px;
 }
 
-.main-about, .main-single-post, .main-gallery, .main-contact {
+.main-home, .main-basics, .main-kpi, .main-type, .main-bp, .main-contact {
   height: 65vh;
 }
 
@@ -266,20 +266,24 @@ a:hover, a:active, a:focus {
   height: 100vh;
 }
 
-.main-about {
+.main-basics {
   background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
 }
 
-.main-single-post {
-  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
+.main-kpi {
+  background: url('http://i.imgur.com/umxhJyb.jpg') no-repeat;
 }
 
-.main-gallery {
-  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
+.main-type {
+  background: url('http://i.imgur.com/H8QHnPZ.jpg') no-repeat;
+}
+
+.main-bp {
+  background: url('http://i.imgur.com/atPpSHS.jpg') no-repeat;
 }
 
 .main-contact {
-  background: url('http://i.imgur.com/YDN4Uc9.jpg') no-repeat;
+  background: url('http://i.imgur.com/NU6UyRj.jpg') no-repeat;
 }
 
 #particles-js {
@@ -355,11 +359,6 @@ The Basics section
    Gallery section
 -----------------------------------------*/
 
-#gallery span {
-  display: block;
-  padding-bottom: 32px;
-}
-
 #gallery .col-md-6 {
   padding-left: 0px;
   padding-right: 0px;
@@ -381,7 +380,8 @@ The Basics section
 }
 
 #gallery .gallery-thumb img {
-  width: 100%;
+  max-width: 50%;
+  max-height: 50%;
 }
 
 #gallery .col-md-12 p {
@@ -713,7 +713,7 @@ footer .footer-copyright {
 -----------------------------------------*/
 
 @media (max-width: 980px) {
-  .main-about, .main-single-post, .main-gallery, .main-contact {
+  .main-home, .main-basics, .main-kpi, .main-type, .main-bp .main-contact {
     height: 35vh;
   }
 }
